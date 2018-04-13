@@ -1,0 +1,36 @@
+{
+  "name": "booking-server",
+  "version": "0.0.1",
+  "description": "Server side of Booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start ./src/index.js",
+    "stop": "forever stop ./src/index.js"
+  },
+  "keywords": [
+    "estimote",
+    "beacon",
+    "booking"
+  ],
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.18.2",
+    "boom": "^3.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "hapi": "^13.2.2",
+    "hapi-swagger": "^4.3.1",
+    "inert": "^3.2.0",
+    "joi": "^8.0.5",
+    "lodash": "^4.7.0",
+    "moment": "latest",
+    "mongojs": "^2.5.0",
+    "mongoose": "4.13.4 ",
+    "node-uuid": "^1.4.7",
+    "unirest": "^0.4.2",
+    "vision": "^4.0.1"
+  },
+  "devDependencies": {}
+}
